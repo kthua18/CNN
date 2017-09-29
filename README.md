@@ -7,10 +7,11 @@ HLS
 
 v1.0
 - Contains files for gcc compiler / CPU
-- This is the "gold standard" to compare with HLS files
-- Includes main.c, conv.c, and demod.c
+- No HLS optimzations
+- Format of this code is broken up into several sub-functions for convolution
 
 cnn_code
 - "Gold standard"
 - Used to compare with outputs of HLS code
 - Otherwise, this code is obselete.
+- Format of this code is broken up into several sub-functions for convolution
