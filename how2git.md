@@ -8,7 +8,9 @@ Here are the basic "happy path" steps to using git:
 * You must commit your changes using `git commit`. Commiting basically means that you have finished a "batch" of
   changes. A commit becomes an entry in the history log of your repo.
   When you type `git commit`, a text editor will open automatically for you to write a message to
-  describe your commit, because you _must_ attach a message to your commit. You can write a message and commit at the
+  describe your commit, because you _must_ attach a message to your commit. (when done, type ESC :wq)
+  
+  You can write a message and commit at the
   same time by typing `git commit -m 'this is my commit message'`.
 * To sync your new commit(s) to Github, you type `git push` then type your Github credentials in the prompt.
 * To fetch the latest changes and synchronize your repo with Github, type `git pull`.
